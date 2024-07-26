@@ -1,7 +1,14 @@
 import "./App.css";
+import HeaderComp from "./components/HeaderComp";
 
 function App() {
-  return <>Le code starter</>;
+  return (
+    <>
+    <div className='main'>
+    <HeaderComp />
+    </div>
+    </>
+  );
 }
 
 export default App;
