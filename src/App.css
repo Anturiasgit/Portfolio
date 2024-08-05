@@ -82,3 +82,7 @@ header .right .contact-btn {
   margin-bottom: 20px;
   color: #ffffff; 
 }
+
+.main .body-container .left section h2 {
+  margin-bottom: 15px;
+}
