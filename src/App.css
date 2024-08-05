@@ -22,4 +22,63 @@ header {
   display:flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 25px;
+  height: 300px;
+}
+
+header .left {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+header .left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header .left .contacts {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+header .left .contacts .contact-item {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #3a3939;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .left .contacts .contact-item:hover{
+  background-color: #535353;
+}
+
+header .right .contact-btn {
+  background-color: #0d6e3e;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+}
+
+.main .body-container {
+  width: 100%;
+  padding: 70px 100px;
+  display: flex;
+}
+
+.main .body-container .left {
+  width: 70%;
+}
+
+.main .body-container .left section {
+  background-color: #282828;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
