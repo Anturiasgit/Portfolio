@@ -115,3 +115,23 @@ header .right .contact-btn {
   background-color: #0d6e3e;
   color: #ffffff;
 }
+
+.main .body-container .left section.projects article.article-item {
+  display: flex;
+  margin: 10px 0;
+}
+
+.main .body-container .left section.projects article.article-item .left {
+  width: 35%;
+  margin-right: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.main .body-container .left section.projects article.article-item .right {
+  width: 75%;
+} 

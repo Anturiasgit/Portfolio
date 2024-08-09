@@ -2,12 +2,15 @@ import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import { Button, Divider } from "antd";
+import { projects } from "./data/data";
 
 function App() {
   return (
     <>
       <div className='main'>
+
         <HeaderComp />
+
         <div className="body-container">
           <div className="left">
             <section>
@@ -35,20 +38,27 @@ function App() {
                 </div>
               </article>
               <Divider style={{ backgroundColor: "#ffffff" }}></Divider>
-              <article className="article-item"> 
-                <div className="left">
-                  <img src="https://kinsta.com/fr/wp-content/themes/kinsta/images/custom-pages/page/landing-best-wordpress-themes/screenshots/astra.jpg" alt="" />
-                </div>
-                <div className="right">
-                  <h3>Titre</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam expedita eveniet quibusdam tenetur ut eligendi qui numquam facere saepe a doloremque distinctio laborum laboriosam earum officia vero, harum impedit. Placeat.
-                  </p>
-                  <Button type="link" icon={<LinkOutlined />}>
-                    En savoir plus
-                  </Button>
-                </div>
-              </article>
+              {
+                projects.map((item)=>{
+                    return (<article className="article-item">
+                      <div className="left">
+                        <img src={item.image} alt={item.title} />
+                      </div>
+                      <div className="right">
+                        <h3>{item.title}</h3>
+                        <p>
+                         {item.description}
+                        </p>
+                        <Button type="link" icon={<LinkOutlined />}>
+                          En savoir plus
+                        </Button>
+                      </div>
+                    </article>);
+                })
+              }
+
+
+ 
             </section>
           </div>
 
@@ -56,6 +66,7 @@ function App() {
 
           </div>
         </div>
+
       </div>
     </>
   );
