@@ -2,7 +2,7 @@ import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import { Button, Divider } from "antd";
-import { projects } from "./data/data";
+import { experience, projects } from "./data/data";
 
 function App() {
   return (
@@ -39,27 +39,42 @@ function App() {
               </article>
               <Divider style={{ backgroundColor: "#ffffff" }}></Divider>
               {
-                projects.map((item)=>{
-                    return (<article className="article-item">
-                      <div className="left">
-                        <img src={item.image} alt={item.title} />
-                      </div>
-                      <div className="right">
-                        <h3>{item.title}</h3>
-                        <p>
-                         {item.description}
-                        </p>
-                        <Button type="link" icon={<LinkOutlined />}>
-                          En savoir plus
-                        </Button>
-                      </div>
-                    </article>);
+                projects.map((item) => {
+                  return (<article className="article-item">
+                    <div className="left">
+                      <img src={item.image} alt={item.title} />
+                    </div>
+                    <div className="right">
+                      <h3>{item.title}</h3>
+                      <p>
+                        {item.description}
+                      </p>
+                      <Button type="link" icon={<LinkOutlined />}>
+                        En savoir plus
+                      </Button>
+                    </div>
+                  </article>);
                 })
               }
-
-
- 
             </section>
+
+            <section className="experiences">
+              <h2>Expériences professionnelles</h2>
+              {
+                experience.map((item)=>{
+                  return(
+                    <article>
+                    <h3>{item.title}</h3>
+                    <p>
+                      {item.description}
+                    </p>
+                  </article>
+                  );
+                })
+              }
+           
+            </section>
+
           </div>
 
           <div className="right">

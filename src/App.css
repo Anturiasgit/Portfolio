@@ -135,3 +135,7 @@ header .right .contact-btn {
 .main .body-container .left section.projects article.article-item .right {
   width: 75%;
 } 
+
+.main .body-container .left section.experiences article {
+  margin: 10px 0;
+}
