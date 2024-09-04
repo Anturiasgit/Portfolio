@@ -1,4 +1,4 @@
-import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
+import { EnvironmentOutlined, LikeOutlined, LinkOutlined, MailOutlined } from "@ant-design/icons";
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import { Button, Divider } from "antd";
@@ -40,7 +40,7 @@ function App() {
               <Divider style={{ backgroundColor: "#ffffff" }}></Divider>
               {
                 projects.map((item) => {
-                  return (<article className="article-item">
+                  return (<article className="article-item" key={item.id}>
                     <div className="left">
                       <img src={item.image} alt={item.title} />
                     </div>
@@ -61,25 +61,42 @@ function App() {
             <section className="experiences">
               <h2>Expériences professionnelles</h2>
               {
-                experience.map((item)=>{
-                  return(
-                    <article>
-                    <h3>{item.title}</h3>
-                    <p>
-                      {item.description}
-                    </p>
-                  </article>
+                experience.map((item) => {
+                  return (
+                    <article key={item.id}>
+                      <h3>{item.title}</h3>
+                      <p>
+                        {item.description}
+                      </p>
+                    </article>
                   );
                 })
               }
-           
+
             </section>
 
           </div>
 
-          <div className="right">
-
-          </div>
+          <aside>
+            <div className="contacts">
+              <div className="contact-item">
+                <EnvironmentOutlined />
+                <span>Villeurbanne</span>
+              </div>
+              <div className="contact-item">
+                <MailOutlined />
+                <span>
+                  <a href="mailto:anturia.job@gmail.com">anturia.job@gmail.com</a>
+                </span>
+              </div>
+              <div className="contact-item">
+                <LinkOutlined />
+                <span>
+                  <a href="https://github.com/Anturiasgit" target="_blank" rel="noopener noreferrer">Découvrez mes projets sur mon GitHub</a>
+                </span>
+              </div>
+            </div>
+          </aside>
         </div>
 
       </div>
