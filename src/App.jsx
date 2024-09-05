@@ -78,7 +78,7 @@ function App() {
           </div>
 
           <aside>
-            <div className="contacts">
+            <div className="contacts section">
               <div className="contact-item">
                 <EnvironmentOutlined />
                 <span>Villeurbanne</span>
@@ -94,6 +94,37 @@ function App() {
                 <span>
                   <a href="https://github.com/Anturiasgit" target="_blank" rel="noopener noreferrer">Découvrez mes projets sur mon GitHub</a>
                 </span>
+              </div>
+            </div>
+
+            <div className="skills section">
+              <h2>Compétences</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque perspiciatis doloribus ullam tenetur a consequatur accusamus aut. Unde qui itaque odit excepturi et repellat architecto nobis nisi sequi dolor!</p>
+              <div className="skills-list">
+                <div className="skill-item">
+                  <span>PHP & Symfony 5</span>
+                  <div className="full">
+                    <div className="percent"></div>
+                  </div>
+                </div>
+                <div className="skill-item">
+                  <span>Javascript - React js</span>
+                  <div className="full">
+                    <div className="percent"></div>
+                  </div>
+                </div>
+                <div className="skill-item">
+                  <span>HTML, CSS, Bootstrap</span>
+                  <div className="full">
+                    <div className="percent"></div>
+                  </div>
+                </div>
+                <div className="skill-item">
+                  <span>SQL</span>
+                  <div className="full">
+                    <div className="percent"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </aside>

@@ -139,3 +139,52 @@ header .right .contact-btn {
 .main .body-container .left section.experiences article {
   margin: 10px 0;
 }
+
+/* ASIDE */
+
+aside {
+  width: 29%;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+aside .section {
+  width: 100%;
+  background-color: #282828;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+aside .section h2 {
+  margin-bottom: 10px;
+}
+
+aside .contacts .contact-item {
+  margin: 15px 0px;
+}
+
+aside .contacts .contact-item a {
+color:#0d6e3e;
+}
+
+aside .contacts .contact-item span {
+margin-left: 7px;
+}
+
+aside .skills .skills-list {
+  margin-top: 10px;
+}
+
+aside .skills .skills-list .full {
+width: 100%;
+background-color: #ffffff;
+height: 15px;
+border-radius: 7px;
+}
+
+aside .skills .skills-list .full .percent {
+background-color: #0d6e3e;
+height: 100%;
+width: 90%;
+}
