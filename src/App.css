@@ -134,7 +134,7 @@ header .right .contact-btn {
 
 .main .body-container .left section.projects article.article-item .right {
   width: 75%;
-} 
+}
 
 .main .body-container .left section.experiences article {
   margin: 10px 0;
@@ -165,26 +165,67 @@ aside .contacts .contact-item {
 }
 
 aside .contacts .contact-item a {
-color:#0d6e3e;
+  color: #0d6e3e;
 }
 
 aside .contacts .contact-item span {
-margin-left: 7px;
+  margin-left: 7px;
 }
 
-aside .skills .skills-list {
+aside .section {
   margin-top: 10px;
 }
 
-aside .skills .skills-list .full {
-width: 100%;
-background-color: #ffffff;
-height: 15px;
-border-radius: 7px;
+aside .section .full {
+  width: 100%;
+  background-color: #ffffff;
+  height: 15px;
+  border-radius: 7px;
 }
 
-aside .skills .skills-list .full .percent {
-background-color: #0d6e3e;
-height: 100%;
-width: 90%;
+aside .section .skill-item {
+  margin: 15px 0px;
+}
+
+aside .section .full .percent {
+  background-color: #0d6e3e;
+  height: 100%;
+}
+
+aside .section .full .first {
+  width: 95%;
+  border-radius: 7px;
+}
+
+aside .section .full .second {
+  width: 90%;
+  border-radius: 7px;
+}
+
+aside .section .full .third {
+  width: 90%;
+  border-radius: 7px;
+}
+
+aside .section .full .fourth {
+  width: 85%;
+  border-radius: 7px;
+}
+
+aside .education-item {
+  margin: 10px 0px;
+}
+
+aside .language-item {
+  margin: 10px 0px;
+}
+
+aside .section .french {
+  width: 100%;
+  border-radius: 7px;
+}
+
+aside .section .spanish {
+  width: 70%;
+  border-radius: 7px;
 }

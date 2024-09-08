@@ -64,10 +64,12 @@ export const experience = [
 
 export const educations = [
   {
+    id: 1,
     title: "MSc Informatique",
     name: "Collège universitaire de Londres (2017-2018)",
   },
   {
+    id: 2,
     title: "B.Sc. Informatique",
     name: "Université de Bristol (2013-2017)",
   },
