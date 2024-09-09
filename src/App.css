@@ -229,3 +229,59 @@ aside .section .spanish {
   width: 70%;
   border-radius: 7px;
 }
+
+footer {
+  height: 50px;
+  background-color: #282828;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Media Queries for responsive website */
+@media (max-width: 645px) {
+  .main header {
+    flex-direction: column;
+    padding: 15px 0px;
+    height: 400px;
+  }
+
+  .main header .left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main header .contacts {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 945px) {
+  .main .body-container {
+    flex-direction: column;
+    padding: 50px 30px;
+  }
+
+  .main .body-container .left {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  .main .body-container .left section.projects .article-item {
+    flex-direction: column;
+  }
+
+  .main .body-container .left section.projects article.article-item .left {
+    width: 100%;
+  }
+
+  .main .body-container .left section.projects article.article-item .right {
+    width: 100%;
+  }
+}

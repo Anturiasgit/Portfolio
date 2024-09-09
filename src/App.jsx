@@ -77,7 +77,11 @@ function App() {
           </div>
           <AsideComp />
         </div>
-        
+        <footer>
+          <p>
+            Conçu avec la libraire ReactJS, par Anturia Hassani Mzé, All Rights Reserved &copy; 2024
+          </p>
+        </footer>
       </div>
     </>
   );
