@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <div className='main'>
-
         <HeaderComp />
 
         <div className="body-container">
@@ -17,7 +16,7 @@ function App() {
             <section className="projects">
               <h2>Mes récents projets</h2>
               <article>
-                <img className="featured-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTU89MIWSq3LP_chJmHwSTWGLHolHRbkPXw&s" alt="slug" />
+                <img className="last-project-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTU89MIWSq3LP_chJmHwSTWGLHolHRbkPXw&s" alt="slug" />
                 <div className="project-info">
                   <h3>Site web de gestion de médias sociaux</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nobis deleniti eligendi eum ex ipsam, facere odio qui autem quam dolores placeat omnis possimus nostrum minus! Quisquam obcaecati placeat corporis!
@@ -69,11 +68,13 @@ function App() {
           </div>
           <AsideComp />
         </div>
+
         <footer>
           <p>
             Conçu avec la libraire ReactJS, par Anturia Hassani Mzé, All Rights Reserved &copy; 2024
           </p>
         </footer>
+
       </div>
     </>
   );

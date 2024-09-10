@@ -50,21 +50,21 @@ header .init .links .link-item:hover {
   background-color: #535353;
 }
 
-header .about-me {
+header section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start; 
   margin: 15px 15px 5px;
 }
 
-header .about-me .research {
+header section .about-me {
   width: 65%;
   background-color: #3a3939;
   border-radius: 20px;
   padding: 5px;
 }
 
- header .about-me .research h2 {
+ header section .about-me h2 {
   padding-left: 10px;
   padding-bottom: 5px;
   text-align: left;
@@ -72,18 +72,18 @@ header .about-me .research {
   text-decoration-style:double;
 } 
 
-header .about-me .research p {
+header section .about-me p {
 padding: 0 10px;
 }
 
-header .about-me .infos {
+header section .infos {
   width: 34%;
   background-color: #3a3939;
   border-radius: 20px;
   padding: 5px; 
 }
 
-header .about-me .infos .info-item {
+header section .infos .info-item {
   margin: 10px 0px;
 }
 
@@ -96,29 +96,36 @@ header .infos .info-item span {
 
 .main .body-container {
   width: 100%;
-  padding: 70px 100px;
   display: flex;
+  padding: 25px 50px;
+  color:#ffffff;
 }
 
 .main .body-container .left {
-  width: 70%;
+  width: 65%;
 }
 
-
-.main .body-container .left section h2 {
+.main .body-container .left section {
+  background-color: #282828;
+  border-radius: 15px;
+  padding: 15px;
   margin-bottom: 15px;
 }
 
-.main .body-container .left section.projects article {
-  width: 100%;
-
+.main .body-container .left section.projects h2 {
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-.main .body-container .left section.projects article .featured-img {
+.main .body-container .left section.projects article .last-project-img {
   width: 100%;
   height: 350px;
   object-fit: cover;
   border-radius: 15px;
+}
+
+.main .body-container .left section.projects .article-item {
+  width: 100%;
 }
 
 .main .body-container .left section.projects article h3 {
@@ -165,7 +172,7 @@ header .infos .info-item span {
 /* ASIDE */
 
 aside {
-  width: 29%;
+  width: 34%;
   margin-left: 10px;
   color: #ffffff;
 }

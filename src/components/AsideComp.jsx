@@ -41,14 +41,6 @@ export const AsideComp = () => {
         </div>
 
         <div className="section">
-          <h2>Témoignages</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus quaerat beatae. Iure hic, minus molestiae vitae ad aperiam architecto adipisci aliquid tempora dignissimos veniam nihil fugiat, qui harum magnam?
-          </p>
-          <Button type="link" icon={<LinkOutlined />}>En savoir plus sur LinkedIn</Button>
-        </div>
-
-        <div className="section">
           <h2>Education</h2>
           {educations.map((item) => {
             return (<div className="education-item" key={item.id}>
