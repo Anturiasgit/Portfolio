@@ -1,29 +1,24 @@
 import React from 'react'
-import { GithubOutlined, LinkedinOutlined, MessageOutlined } from '@ant-design/icons'
-import { Button } from "antd";
+import { GithubOutlined, LinkedinOutlined } from '@ant-design/icons'
 
 const HeaderComp = () => {
     return (
         <header>
-            <div className='left'>
-                <div className="user-infos">
+            <div className='init'>
                     <h1>Anturia Hassani Mzé</h1>
-                    <h3>Développeuse web - mobile</h3>
-                    <div className="contacts">
-                        <div className="contact-item">
+                    <h3>Aspirante Développeuse Full Stack</h3>
+                    <div className="links">
+                        <div className="link-item">
                             <LinkedinOutlined />
                         </div>
-                        <div className="contact-item">
+                        <div className="link-item">
                             <GithubOutlined />
                         </div>
                     </div>
-                </div>
             </div>
-            <div className='right'>
-                <Button className="contact-btn" icon={<MessageOutlined />}>
-                    Contactez-moi
-                </Button>
-            </div>
+
+            
+
         </header>
     )
 }
