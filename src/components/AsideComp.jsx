@@ -1,5 +1,5 @@
 import React from 'react'
-import { EnvironmentOutlined, LikeOutlined, LinkOutlined, MailOutlined } from "@ant-design/icons";
+import {  LinkOutlined } from "@ant-design/icons";
 import { educations } from '../data/data';
 import { Button } from 'antd';
 
@@ -8,25 +8,6 @@ export const AsideComp = () => {
   return (
     <>
       <aside>
-        <div className="contacts section">
-          <div className="contact-item">
-            <EnvironmentOutlined />
-            <span>Villeurbanne</span>
-          </div>
-          <div className="contact-item">
-            <MailOutlined />
-            <span>
-              <a href="mailto:anturia.job@gmail.com">anturia.job@gmail.com</a>
-            </span>
-          </div>
-          <div className="contact-item">
-            <LinkOutlined />
-            <span>
-              <a href="https://github.com/Anturiasgit" target="_blank" rel="noopener noreferrer">Découvrez mes projets sur mon GitHub</a>
-            </span>
-          </div>
-        </div>
-
         <div className="skills section">
           <h2>Compétences</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque perspiciatis doloribus ullam tenetur a consequatur accusamus aut. Unde qui itaque odit excepturi et repellat architecto nobis nisi sequi dolor!</p>

@@ -29,7 +29,7 @@ header .init {
 }
 
 header .init h1 {
- padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 header .init .links {
@@ -50,6 +50,47 @@ header .init .links .link-item:hover {
   background-color: #535353;
 }
 
+header .about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  margin: 15px 15px 5px;
+}
+
+header .about-me .research {
+  width: 65%;
+  background-color: #3a3939;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+ header .about-me .research h2 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style:double;
+} 
+
+header .about-me .research p {
+padding: 0 10px;
+}
+
+header .about-me .infos {
+  width: 34%;
+  background-color: #3a3939;
+  border-radius: 20px;
+  padding: 5px; 
+}
+
+header .about-me .infos .info-item {
+  margin: 10px 0px;
+}
+
+header .infos .info-item span {
+  margin-left: 7px;
+}
+
 
 /* BODY-CONTAINER */
 
@@ -63,13 +104,6 @@ header .init .links .link-item:hover {
   width: 70%;
 }
 
-.main .body-container .left section {
-  background-color: #282828;
-  padding: 15px;
-  border-radius: 15px;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
 
 .main .body-container .left section h2 {
   margin-bottom: 15px;
@@ -148,17 +182,7 @@ aside .section h2 {
   margin-bottom: 10px;
 }
 
-aside .contacts .contact-item {
-  margin: 15px 0px;
-}
 
-aside .contacts .contact-item a {
-  color: #0d6e3e;
-}
-
-aside .contacts .contact-item span {
-  margin-left: 7px;
-}
 
 aside .section {
   margin-top: 10px;
