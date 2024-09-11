@@ -16,12 +16,12 @@ function App() {
             <section className="projects">
               <h2>Mes récents projets</h2>
               <article>
-                <img className="last-project-img" src="./assets/images/last-project.jpg" alt="Image pour sch" />
+                <img className="last-project-img" src="../public/last-project.jpg" alt="Image pour sch" />
                 <div className="project-info">
-                  <h3>Site web de gestion de médias sociaux</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nobis deleniti eligendi eum ex ipsam, facere odio qui autem quam dolores placeat omnis possimus nostrum minus! Quisquam obcaecati placeat corporis!
-                    Tempora exercitationem voluptate temporibus, expedita quibusdam facere cum eum, fugit odit repudiandae harum minus beatae asperiores. Iure mollitia iste suscipit, necessitatibus nesciunt nam quidem voluptatem molestiae ipsum similique, laboriosam delectus!
-                    Saepe ipsa laudantium debitis sed architecto ducimus. Cum cupiditate quam laborum nobis, dolores incidunt rem aliquid in sapiente earum similique quia consequatur tempore nihil, fugit dolore harum error eligendi modi.</p>
+                  <h3>Création de mon Portfolio en ligne</h3>
+                  <p>Ce projet marque une étape importante dans mon apprentissage du développement. Pour découvrir React et réaliser mon premier projet avec ce framework, je me suis inspirée d'un tutoriel qui expliquait comment créer un Portfolio en ligne. Étant à la fin de ma formation de développeur full stack, il était temps pour moi de mettre en pratique tout ce que j'ai appris. <br></br><br></br>
+
+                    Quoi de mieux que de coder mon propre Portfolio pour présenter mes compétences et mes projets ? Après avoir suivi le tutoriel, j'ai décidé d'aller plus loin en incorporant une partie back-end à ce portfolio, afin d'y intégrer des fonctionnalités dynamiques. Ce projet est pour moi l'occasion de combiner front-end et back-end, tout en personnalisant l'interface selon mes besoins.</p>
                   <div className="btn-link">
                     <Button className="btn" icon={<LikeOutlined />}>
                       Soutenir mon projet
