@@ -16,7 +16,7 @@ function App() {
             <section className="projects">
               <h2>Mes récents projets</h2>
               <article>
-                <img className="last-project-img" src="../public/last-project.jpg" alt="Image pour sch" />
+                <img className="last-project-img" src="last-project.jpg" alt="Image pour sch" />
                 <div className="project-info">
                   <h3>Création de mon Portfolio en ligne</h3>
                   <p>Ce projet marque une étape importante dans mon apprentissage du développement. Pour découvrir React et réaliser mon premier projet avec ce framework, je me suis inspirée d'un tutoriel qui expliquait comment créer un Portfolio en ligne. Étant à la fin de ma formation de développeur full stack, il était temps pour moi de mettre en pratique tout ce que j'ai appris. <br></br><br></br>
