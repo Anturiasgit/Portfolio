@@ -137,12 +137,7 @@ header .infos .info-item span {
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-}
-
-.main .body-container .left section.projects article .btn-link .btn {
-  background-color: #0d6e3e;
-  color: #ffffff;
-}
+} 
 
 .main .body-container .left section.projects article.article-item {
   display: flex;
@@ -166,6 +161,11 @@ header .infos .info-item span {
 
 .main .body-container .left section.experiences article {
   margin: 10px 0;
+}
+
+.main .body-container .left section.experiences h2 {
+text-align: center;
+margin-bottom: 15px;
 }
 
 /* ASIDE */

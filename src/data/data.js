@@ -2,42 +2,20 @@ export const projects = [
   {
     id: 1,
     image:
-      "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas-1128x635.jpg",
-    title: "Developpement d'une application web avec Laravel et React Js",
+      "todolist.jpg",
+    title: "Développement d'une To-Do List en Javascript",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "Ce projet de to-do list, que j'ai conçu en JavaScript, a pour objectif d'aider les utilisateurs à organiser leurs tâches quotidiennes. Il permet d'ajouter, cocher et supprimer des tâches facilement, avec une interface dynamique et fluide. Les fonctionnalités sont, entre autre : Ajout de tâches avec une simple saisie ; Possibilité de marquer les tâches comme terminées ; Suppression des tâches réalisées ou inutiles ; Interface dynamique qui met à jour la liste en temps réel, offrant une gestion efficace des tâches.",
+      link: "https://github.com/Anturiasgit/ToDoList",
   },
   {
     id: 2,
     image:
-      "https://www.wisembly.com/assets/wizuploads/2022/12/page-event-en-800x704.webp",
-    title: "Developpement d'un site web d'evenements",
+      "calculator.jpg",
+    title: "Développement d'une calculatrice en Javascript",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-  {
-    id: 3,
-    image:
-      "https://kinsta.com/fr/wp-content/themes/kinsta/images/custom-pages/page/landing-best-wordpress-themes/screenshots/oceanwp.jpg",
-    title: "Developpement d'une application web-ecommerce",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-  {
-    id: 4,
-    image:
-      "https://kinsta.com/fr/wp-content/themes/kinsta/images/custom-pages/page/landing-best-wordpress-themes/screenshots/astra.jpg",
-    title: "Developpement du site web d'Astra",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
-  },
-  {
-    id: 5,
-    image:
-      "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQDUnXae0wDzyMEYAaLMS5kXbVsKvwzV9Bvfhvqlg6FEm8crY87",
-    title: "Site web : Agence de developpement web",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, cumque sequi eos suscipit repellendus in quia odit, et itaque amet magni assumenda earum ullam ipsam doloribus recusandae. Voluptatibus, vitae ducimus! Laboriosam, iste! Officia quam, facere similique, libero provident vitae unde ratione commodi possimus ab minus nemo? Tempora adipisci aperiam odio aut dolores nemo a iusto quae, illum nulla, error eius! Nisi voluptatem eaque officia obcaecati reprehenderit, nesciunt qui consequatur sint voluptas dignissimos sequi magni voluptates dicta similique quas amet praesentium ipsam maiores illum fugiat, laboriosam dolore aliquam deleniti. Quod, et?",
+      "J'ai développé cette calculatrice en JavaScript afin de permettre aux utilisateurs d'effectuer facilement des opérations mathématiques de base. Son interface intuitive assure une prise en main rapide et efficace. Les fonctionnalités sont, entre autre : Interface intuitive pour une utilisation facile ; Prise en charge des opérations de base : addition, soustraction, multiplication et division ; Affichage en temps réel des résultats ; Gestion des erreurs telles que la division par zéro.",
+      link: "https://github.com/Anturiasgit/Calculatrice",
   },
 ];
 
