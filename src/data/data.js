@@ -19,24 +19,27 @@ export const projects = [
   },
 ];
 
-export const experience = [
+export const experiences = [
   {
     id: 1,
-    title: "Co-Fondateur & Lead Developer - Startup Hub (2022 - Present)",
+    job: "Agente logistique - juin 2021/août 2021",
+    employer: "Atlantic",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
+      "Réception physique et informatique des marchandises. Inventaire et rangement des stocks.",
   },
   {
     id: 2,
-    title: "Ingenieur Logiciel - Google (2019 - 2022)",
+    job: "Préparatrice de commandes - mars 2020",
+    employer: "Elis",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
+      "Tri et rangement du linge propre dans des chariots destinéà la livraison des hôpitaux et restaurants.",
   },
   {
     id: 3,
-    title: "Ingenieur Logiciel - eBay (2018 - 2019)",
+    job: "Factrice vélo - juin 2017/août 2017",
+    employer: "La Poste",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet architecto quos earum minus modi blanditiis aperiam officiis, explicabo sint nulla ipsam adipisci excepturi. Nulla, quis. Iusto molestias eligendi optio fugiat! Quam qui laborum culpa sequi saepe commodi dolorum voluptatum sunt dignissimos molestias recusandae corporis facilis, quos maxime voluptates accusamus eveniet, non illo atque! Minima laudantium exercitationem deserunt maiores optio nam?",
+      "Tri, livraison et collecte du courrier.",
   },
 ];
 

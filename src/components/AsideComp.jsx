@@ -10,7 +10,7 @@ export const AsideComp = () => {
       <aside>
         <div className="skills section">
           <h2>Compétences</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloremque perspiciatis doloribus ullam tenetur a consequatur accusamus aut. Unde qui itaque odit excepturi et repellat architecto nobis nisi sequi dolor!</p>
+          <p>Autonome, curieuse et organisée, j’aime résoudre des problèmes et collaborer en équipe. Positive et proactive, je suis prête à apprendre rapidement et à apporter une contribution efficace.</p>
           <div className="skills-list">
             <div className="skill-item">
               <span>PHP & Symfony 5</span>

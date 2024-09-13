@@ -160,12 +160,22 @@ header .infos .info-item span {
 }
 
 .main .body-container .left section.experiences article {
-  margin: 10px 0;
+  margin-top: 50px;
 }
 
 .main .body-container .left section.experiences h2 {
 text-align: center;
 margin-bottom: 15px;
+}
+
+.main .body-container .left section.experiences article .job {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.main .body-container .left section.experiences article .job span {
+  font-style: italic;
 }
 
 /* ASIDE */
@@ -181,17 +191,17 @@ aside .section {
   background-color: #282828;
   padding: 15px;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin: 10px 0 15px;
 }
 
 aside .section h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-
-
-aside .section {
-  margin-top: 10px;
+aside .skills p {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 aside .section .full {

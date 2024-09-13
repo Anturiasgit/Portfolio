@@ -1,8 +1,8 @@
-import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
+import { LinkOutlined } from "@ant-design/icons";
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import { Button, Divider } from "antd";
-import { experience, projects } from "./data/data";
+import { experiences, projects } from "./data/data";
 import { AsideComp } from "./components/AsideComp";
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
                   <p>Ce projet marque une étape importante dans mon apprentissage du développement. Pour découvrir React et réaliser mon premier projet avec ce framework, je me suis inspirée d'un tutoriel qui expliquait comment créer un Portfolio en ligne. Étant à la fin de ma formation de développeur full stack, il était temps pour moi de mettre en pratique tout ce que j'ai appris. <br></br><br></br>
 
                     Quoi de mieux que de coder mon propre Portfolio pour présenter mes compétences et mes projets ? Après avoir suivi le tutoriel, j'ai décidé d'aller plus loin en incorporant une partie back-end à ce portfolio, afin d'y intégrer des fonctionnalités dynamiques. Ce projet est pour moi l'occasion de combiner front-end et back-end, tout en personnalisant l'interface selon mes besoins.</p>
-                    <Button type="link" className="btn-link" icon={<LinkOutlined />}>
-                    <a href="https://github.com/Anturiasgit/Portfolio" target="_blank">Voir le projet sur mon GitHub</a>  
-                    </Button>
+                  <Button type="link" className="btn-link" icon={<LinkOutlined />}>
+                    <a href="https://github.com/Anturiasgit/Portfolio" target="_blank">Voir le projet sur mon GitHub</a>
+                  </Button>
                 </div>
               </article>
               <Divider style={{ backgroundColor: "#ffffff" }}></Divider>
@@ -40,7 +40,7 @@ function App() {
                         {item.description}
                       </p>
                       <Button type="link" className="btn-link" icon={<LinkOutlined />}>
-                       <a href={item.link} target="_blank">Voir le projet sur mon GitHub</a> 
+                        <a href={item.link} target="_blank">Voir le projet sur mon GitHub</a>
                       </Button>
                     </div>
                   </article>);
@@ -51,10 +51,13 @@ function App() {
             <section className="experiences">
               <h2>Expériences professionnelles</h2>
               {
-                experience.map((item) => {
+                experiences.map((item) => {
                   return (
                     <article key={item.id}>
-                      <h3>{item.title}</h3>
+                      <div className="job">
+                        <h3>{item.job}</h3>
+                        <span>{item.employer}</span>
+                      </div>
                       <p>
                         {item.description}
                       </p>
