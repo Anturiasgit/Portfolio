@@ -46,12 +46,12 @@ export const experiences = [
 export const educations = [
   {
     id: 1,
-    title: "MSc Informatique",
-    name: "Collège universitaire de Londres (2017-2018)",
+    title: "Développeur web et web mobile",
+    name: "Après une formation de Développeur Web et Web Mobile avec Human Booster en 2022-2023, j'ai renforcé mes compétences au cours de l'année 2023-2024 à travers mon apprentissage en autodidacte et mes projets personnels.",
   },
   {
     id: 2,
-    title: "B.Sc. Informatique",
-    name: "Université de Bristol (2013-2017)",
+    title: "Licence Informatique (jusqu'en L2)",
+    name: "Université de La Doua (2018-2021). J'y ai appris les bases de la programmation web, ainsi que de la programmation récursive et orientée objet, avec C++. J'ai aussi acquis, grâce à mon expérience en L1 et L2, des bases en électronique et en réseaux.",
   },
 ];

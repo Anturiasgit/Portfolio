@@ -13,13 +13,13 @@ export const AsideComp = () => {
           <p>Autonome, curieuse et organisée, j’aime résoudre des problèmes et collaborer en équipe. Positive et proactive, je suis prête à apprendre rapidement et à apporter une contribution efficace.</p>
           <div className="skills-list">
             <div className="skill-item">
-              <span>PHP & Symfony 5</span>
+              <span>PHP & Symfony</span>
               <div className="full">
                 <div className="percent first"></div>
               </div>
             </div>
             <div className="skill-item">
-              <span>Javascript - React js</span>
+              <span>Javascript & React js</span>
               <div className="full">
                 <div className="percent second"></div>
               </div>
@@ -27,7 +27,7 @@ export const AsideComp = () => {
             <div className="skill-item">
               <span>HTML, CSS, Bootstrap</span>
               <div className="full">
-                <div className="percent third"></div>
+                <div className="percent second"></div>
               </div>
             </div>
             <div className="skill-item">
@@ -36,11 +36,25 @@ export const AsideComp = () => {
                 <div className="percent fourth"></div>
               </div>
             </div>
-          </div>
-          <Button type="link" icon={<LinkOutlined />}>En savoir plus sur mon GitHub</Button>
+            <div className="skill-item">
+              <span>Linux & Git</span>
+              <div className="full">
+                <div className="percent first"></div>
+              </div>
+            </div>
+            <div className="skill-item">
+              <span>Agile & Scrum</span>
+              <div className="full">
+                <div className="percent first"></div>
+              </div>
+            </div>
+          </div>     
+          <Button type="link" icon={<LinkOutlined />}>
+          <a href="https://github.com/Anturiasgit/Portfolio" target="_blank"> Voir mes projets sur mon GitHub</a>
+          </Button>
         </div>
 
-        <div className="section">
+        <div className="section education">
           <h2>Education</h2>
           {educations.map((item) => {
             return (<div className="education-item" key={item.id}>
