@@ -1,0 +1,92 @@
+header {
+position: sticky;
+top: 0;
+}
+
+header .introduction .name-and-dev {
+    display: flex;
+    padding-top: 2px;
+}
+
+.introduction .links-and-stack {
+    display: flex;
+    padding-top: 5px;
+}
+
+.introduction .name-and-dev h1, .links-and-stack .links, .links-and-stack .stack {
+    margin: 0;
+    width: 50%;
+}
+
+.introduction .name-and-dev #dev, .links-and-stack .stack {
+    padding-right: 3px;
+}
+
+.introduction .name-and-dev #name, .links-and-stack .links {
+    text-align: left;
+    padding-left: 3px;
+}
+
+.introduction .links-and-stack #github {
+    padding-right: 5px;
+}
+
+.introduction .name-and-dev #dev, .links-and-stack .stack{
+    text-align: right;
+}
+
+.links-and-stack .stack-item {
+    padding-right: 5px;
+}
+
+.contact {
+    margin-top: 5px;
+}
+
+.contact, .contact .tel, .contact .location, .contact .mail {
+        display: flex;
+}
+
+.contact .tel, .mail, .location {
+    width: 33%;
+}
+
+.contact p {
+    margin-block: 0;
+    width: auto;
+}
+
+.contact .location {
+    gap: 3px;
+}
+
+.contact .tel {
+    justify-content: center;
+}
+
+.contact .tel, .mail {
+    gap: 5px;
+}
+
+.contact .tel-item, .mail-item {
+    margin-top: 2px;
+}
+
+.contact .location p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.contact .mail p {
+    font-size: 16.5px;
+}
+
+
+hr {
+     margin-top: 5px;
+     margin-bottom: 0; 
+}
+
+
+
+
