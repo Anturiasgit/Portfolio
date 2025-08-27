@@ -1,0 +1,18 @@
+.card {
+    height: 190px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+}
+
+.card .cover {
+  height: 100%;
+  width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+    border: 2px outset lightgrey;
+
+}
+

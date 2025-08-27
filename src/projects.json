@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Nina Carducci - Photographe",
+        "cover": "/assets/projects/nina-carducci-photographe-cover.png",
+        "description": "L’objectif était d’optimiser le site existant afin d’améliorer sa visibilité en ligne, son accessibilité et ses performances.\n Travail réalisé : \n🔧 Débogage et optimisation du code : correction de scripts jQuery défaillants et amélioration de la structure HTML/CSS. \n⚡ Performance : réduction du temps de chargement grâce à l’optimisation des images et à la mise en place de bonnes pratiques (minification, lazy loading, etc.).\n🌍 SEO : ajout et amélioration des balises méta, optimisation du contenu pour les moteurs de recherche, structuration sémantique.\n♿ Accessibilité : mise en conformité avec les standards (W3C/WCAG), ajout d’attributs ARIA, amélioration du contraste et de la navigation clavier.\n📊 Audit & suivi : utilisation d’outils comme Lighthouse et Wave pour mesurer et valider les améliorations.\nRésultat :\nUn site plus rapide, accessible et mieux référencé, permettant à Nina Carducci d’offrir une meilleure expérience à ses visiteurs et de renforcer sa présence en ligne.",
+        "link": "https://anturiasgit.github.io/Nina-Carducci-Photographe/"
+    },
+    {
+        "id": 2,
+        "title": "Portfolio architecte Sophie Bluel",
+        "cover": "/assets/projects/sophie-bluel-architecte-cover.png",
+        "description": "Ce projet avait pour but de créer un site vitrine interactif pour une architecte d’intérieur, mettant en valeur ses réalisations et permettant la gestion de son contenu via une interface dédiée.\n Travail réalisé : \n💻 Développement en JavaScript : intégration dynamique des projets depuis une API et affichage dans une galerie filtrable par catégorie. \n🔑 Authentification sécurisée : mise en place d’un système de connexion pour l’administrateur.\n🖼️ Gestion des travaux : création d’une modale permettant d’ajouter, supprimer ou modifier des projets directement depuis le site. \n🎨 Respect de la maquette Figma : intégration fidèle de l’UI/UX fournie. \n🔍 Qualité du code : utilisation de bonnes pratiques JavaScript (DOM, fetch API, modularité, validation des formulaires).",
+        "link": "https://github.com/Anturiasgit/Portfolio-architecte-sophie-bluel"
+    },
+    {
+        "id": 3,
+        "title": "Mon vieux grimoire",
+        "cover": "/assets/projects/mon-vieux-grimoire-cover.png",
+        "description": "Ce projet consistait à développer la partie back-end d’une application web destinée à une communauté de passionnés de lecture. Les utilisateurs peuvent s’inscrire, se connecter, ajouter leurs livres favoris, leur attribuer une note et consulter les avis de la communauté.\nTravail réalisé :\n🛠️ API RESTful : développement d’une API avec Node.js et Express pour gérer les opérations CRUD (ajout, modification, suppression et affichage des livres).\n🔑 Authentification & sécurité : gestion sécurisée des utilisateurs avec chiffrement des mots de passe (bcrypt), tokens JWT et middleware de protection des routes.\n🗄️ Base de données : intégration de MongoDB pour stocker les informations des livres et des utilisateurs.\n⭐ Système de notation : implémentation d’une fonctionnalité de notation moyenne sur chaque livre en fonction des avis.\n🔍 Respect des bonnes pratiques : validation des entrées, gestion des erreurs, organisation modulaire du code.",
+        "link": "https://github.com/Anturiasgit/Mon-Vieux-Grimoire"
+    },
+    {
+        "id": 4,
+        "title": "Kasa - Agence de location immoblière",
+        "cover": "/assets/projects/kasa-location-immobiliere-cover.png",
+        "description": "Ce projet avait pour objectif de développer une application web moderne pour une agence de location immobilière, en utilisant React et React Router. L’application présente les annonces de logements et permet aux utilisateurs de naviguer facilement entre les pages, tout en respectant une charte graphique définie sur Figma.\nTravail réalisé :\n⚛️ Développement avec React : création de composants réutilisables et dynamiques pour afficher les logements.\n🧭 Navigation SPA : mise en place de React Router pour gérer les différentes pages (accueil, à propos, fiche logement, erreur 404).\n📊 Gestion des données : récupération et exploitation des données depuis un fichier JSON.\n🎨 Intégration fidèle : respect strict de la maquette Figma et mise en place d’une UI responsive et moderne.\n📂 Organisation du projet : utilisation des bonnes pratiques de structuration d’un projet React (props, state, hooks, gestion des erreurs).",
+        "link": "https://github.com/Anturiasgit/Kasa"
+    },
+    {
+        "id": 5,
+        "title": "Booki - Site de réservation d'hébergements et d'activités",
+        "cover": "/assets/projects/booki-cover.png",
+        "description": "Le projet consistait à intégrer l’interface d’un site de réservation en ligne à partir d’une maquette Figma. L’objectif principal était de développer une intégration fidèle, responsive et conforme aux standards HTML5 et CSS3.\nTravail réalisé :\n🎨 Intégration HTML/CSS : reproduction fidèle de la maquette Figma.\n📱 Responsive design : adaptation du site pour tous les formats (mobile, tablette, desktop) grâce au flexbox et au grid.\n🏷️ Sémantique HTML : utilisation de balises adaptées pour améliorer la lisibilité du code et le référencement.\n🧩 Organisation du code : structuration claire avec une séparation logique des fichiers et réutilisation des classes CSS.\n🔍 Bonnes pratiques : respect des standards W3C et des guidelines d’accessibilité de base.",
+        "link": "https://github.com/Anturiasgit/Booki"
+    },
+    {
+        "id": 6,
+        "title": "Développement d'une To-Do List",
+        "cover": "/assets/projects/todolist-cover.png",
+        "description": "Cette application de To Do List permet à l'utilisateur d'ajouter, de supprimer et de gérer ses tâches. Les tâches peuvent être marquées comme complètes à l'aide de cases à cocher. L'application offre également une option pour supprimer toutes les tâches d'un coup.\nFonctionnalités\nAjouter de nouvelles tâches\nSupprimer des tâches individuelles\nMarquer les tâches comme complètes\nSélectionner ou désélectionner toutes les tâches",
+        "link": "https://github.com/Anturiasgit/To-Do-List"
+    },
+    {
+        "id": 7,
+        "title": "Développement d'une calculatrice",
+        "cover": "/assets/projects/calculatrice-cover.png",
+        "description": "Cette calculatrice interactive permet d'effectuer des opérations de base (addition, soustraction, multiplication et division) à travers une interface utilisateur simple et intuitive. Conçue pour démontrer mes compétences en JavaScript, ce projet met en avant la gestion des événements, le traitement d'expressions mathématiques et l'interaction avec le DOM.\nFonctionnalités\nOpérations de base : Addition, soustraction, multiplication, et division.\nGestion des erreurs : Affichage d'erreurs pour les divisions par zéro.\nInterface réactive : Les résultats s'affichent immédiatement après chaque opération.",
+        "link": "https://github.com/Anturiasgit/Calculatrice"
+    }
+]

@@ -1,7 +1,9 @@
 header {
 position: sticky;
 top: 0;
-}
+background-color: #b8aeae;  
+z-index: 1000;
+}   
 
 header .introduction .name-and-dev {
     display: flex;

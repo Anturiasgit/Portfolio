@@ -1,0 +1,47 @@
+h1 {
+ margin-top: 40px;
+ margin-bottom: 60px;
+}
+
+.projects .cards-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 50px;
+padding-inline: 25px;
+}
+
+.projects .repositories {
+    display: inline-block;
+    margin-block: 25px;
+}
+
+.competences .full-stack {
+    display: flex;
+ background: linear-gradient(
+    to right,
+    #ffffe0 50%,   
+    #f5deb3 50%    
+  );    
+}
+
+.competences .full-stack .front-end, .back-end {
+    width: 50%;
+}
+
+.competences .stack {
+   display: flex;
+   justify-content: space-between;
+    padding: 40px 50px 60px;
+  background: linear-gradient(
+    to right,
+    #ffffe0 50%,   
+    #f5deb3 50%    
+  );
+
+}
+
+
+
+
+
+

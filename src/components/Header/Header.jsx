@@ -13,12 +13,12 @@ function Header() {
                 </div>
                 <div className="links-and-stack">
                     <div className="links">
-                        <Link id="github" to="https://github.com/anturiasgit" target="_blank">
+                        <a id="github" href="https://github.com/anturiasgit" target="_blank">
                             <SiGithub size="24" color="#181717" />
-                        </Link>
-                        <Link to="https://linkedin.com/in/" target="_blank">
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank">
                             <FaLinkedin size="24" color="#0A66C2" />
-                        </Link>
+                        </a>
                     </div>
                     <div className="stack">
                         <SiHtml5 className="stack-item" size="24" color="#E34F26" />
@@ -28,7 +28,7 @@ function Header() {
                         <SiReact className="stack-item" size="24" color="#61DAFB" />
                         <SiExpress className="stack-item" size="24" color="#000000" />
                         <SiCplusplus className="stack-item" size="24" color="#00599C" />
-                        <SiPhp className="stack-item" size="24" color="#777BB4" />
+                        <SiPhp className="stack-item" size="29" color="#777BB4" />
                         <SiSymfony className="stack-item" size="24" color="#000000" />
                         <SiNodedotjs className="stack-item" size="24" color="#339933" />
                     </div>
@@ -44,7 +44,7 @@ function Header() {
 
                 <div className="location">
                 <FaMapMarkerAlt />
-                <p>Villeurbanne et alentours</p>
+                <p>Villeurbanne, Lyon et alentours</p>
                 </div>
                
                <div className="mail">
