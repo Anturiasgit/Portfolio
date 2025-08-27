@@ -15,30 +15,57 @@ padding-inline: 25px;
     margin-block: 25px;
 }
 
-.competences .full-stack {
+
+.competences .full-stack, .prod-veille-and-uiux-cms-title {
     display: flex;
  background: linear-gradient(
     to right,
-    #ffffe0 50%,   
-    #f5deb3 50%    
-  );    
+    rgb(226, 223, 223) 50%,   
+    lightgrey 50%    
+  ); 
+    box-shadow: 0 -4px 6px -2px rgba(0,0,0,0.2); 
 }
 
-.competences .full-stack .front-end, .back-end {
+.competences .full-stack .front-end, .back-end, .tools .dev, .management, .prod-veille, .uiux-cms {
     width: 50%;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .competences .stack {
    display: flex;
    justify-content: space-between;
     padding: 40px 50px 60px;
-  background: linear-gradient(
+   background: linear-gradient(
     to right,
-    #ffffe0 50%,   
-    #f5deb3 50%    
+    rgb(226, 223, 223) 50%,   
+    lightgrey 50%    
   );
-
+   box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
 }
+
+.competences .stack .stack-item {
+  display: inline-block;
+}
+
+.competences .tools {
+  margin-top: 40px;
+}
+
+.competences h3 {
+  margin-bottom: 40px;
+}
+
+.tools .dev-and-management-title {
+   display: flex;
+ background: linear-gradient(
+    to right,
+    lightgrey 50%,
+    rgb(226, 223, 223) 50%       
+  ); 
+    box-shadow: 0 -4px 6px -2px rgba(0,0,0,0.2); 
+}
+
 
 
 
