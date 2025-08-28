@@ -1,0 +1,26 @@
+.project-subtitle {
+    text-align: left;
+    width: 60%;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.project-description {
+    white-space: pre-line;
+    text-align: left;
+    justify-self: center;
+    line-height: 2;
+    width: 60%;
+     border: 2px outset lightgrey;
+  padding: 20px;
+}
+
+.project-link {
+    display: flex;
+    text-decoration: none;
+    justify-self: center;
+    margin-top: 30px;
+}
+.project-link-text {
+    margin: 0 7px;
+}
