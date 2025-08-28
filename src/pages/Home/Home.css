@@ -44,10 +44,6 @@ padding-inline: 25px;
    box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
 }
 
-.competences .stack .stack-item {
-  display: inline-block;
-}
-
 .competences .tools {
   margin-top: 40px;
 }
@@ -66,9 +62,69 @@ padding-inline: 25px;
     box-shadow: 0 -4px 6px -2px rgba(0,0,0,0.2); 
 }
 
+.tools .dev-and-management-tools {
+  display: flex;
+  padding: 40px 0 50px ;
+   background: linear-gradient(
+    to right,
+    lightgrey 50%,    
+    rgb(226, 223, 223) 50%   
+  );
+   box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
+   margin-bottom: 50px;
+}
+
+.dev-and-management-tools .dev-tools, .management-tools, .prod-veille-and-uiux-cms-tools .prod-veille-tools, .uiux-cms-tools 
+{
+  display:flex;
+  width: 50%;
+    justify-content: space-evenly;
+}
 
 
+.tools .prod-veille-and-uiux-cms-tools {
+     display: flex;
+  padding: 40px 0 50px ;
+   background: linear-gradient(
+    to right,
+    rgb(226, 223, 223) 50%,   
+    lightgrey 50%    
+  );
+   box-shadow: 0 4px 6px -2px rgba(0,0,0,0.2);
+   margin-bottom: 65px;
+}
+
+.about .about-title {
+  margin-bottom: 45px;
+}
 
 
+.about .about-text {
+  width: 70%;
+  justify-self: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 1.5;
+  border: 2px outset lightgrey;
+  padding: 20px;
+}
 
+
+.about .about-links {
+  display: flex;
+  justify-self: center;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.about .about-links a {
+ display: flex;
+ text-decoration: none;
+ 
+}
+
+.about-links p {
+  margin: 2px 0 0 7px;
+}
 

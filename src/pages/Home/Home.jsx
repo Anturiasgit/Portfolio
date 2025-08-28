@@ -1,8 +1,9 @@
 import Card from '../../components/Card/Card'
 import projects from '../../projects.json'
 import './Home.css'
-import { SiCanva, SiWordpress, SiFigma, SiGoogleWorkspace, SiMicrosoft365, SiFeedly, SiTeams, SiDiscord, SiSlack, SiNotion, SiJira, SiTrello, SiChromeDevTools, Sinpm, SiDocker, SiLinux, SiGit, SiPostman, SiVisualstudiocode, SiGithub, SiJavascript, SiReact, SiHtml5, SiCss, SiCplusplus, SiPhp, SiSymfony, SiNodedotjs, SiExpress, SiSass } from '@icons-pack/react-simple-icons'
-import { FiLink } from "react-icons/fi"
+import { SiCanva, SiWordpress, SiFigma, SiGoogledrive, SiFeedly, SiDiscord, SiSlack, SiNotion, SiJira, SiTrello, SiNpm, SiDocker, SiLinux, SiGit, SiPostman, SiGithub, SiJavascript, SiReact, SiHtml5, SiCss, SiCplusplus, SiPhp, SiSymfony, SiNodedotjs, SiExpress, SiSass } from '@icons-pack/react-simple-icons'
+import { FiTool, FiLink } from "react-icons/fi"
+import { FaLinkedin, FaFilePdf } from "react-icons/fa";
 
 
 function Home() {
@@ -86,30 +87,64 @@ function Home() {
 
                     <div className="dev-and-management-tools">
                         <div className="dev-tools">
-                            <SiVisualstudiocode />
-                            <p>VSCode</p>
-                            <SiGithub />
-                            <p>GitHub</p>
-                            <SiGit />
-                            <p>Git</p>
-                            <SiPostman />
-                            <p>Postman</p>
-                            <SiLinux />
-                            <p>Linux</p>
-                            <SiDocker />
-                            <p>Docker</p>
-                            <Sinpm />
-                            <p>npm</p>
-                            <SiChromeDevTools />
-                            <p>Chrome DevTools</p>
+                            <div className="tools-item">
+                                <p>logo VSCode</p>
+                                <p>VSCode</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiGithub />
+                                <p>GitHub</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiGit />
+                                <p>Git</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiPostman />
+                                <p>Postman</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiLinux />
+                                <p>Linux</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiDocker />
+                                <p>Docker</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiNpm />
+                                <p>npm</p>
+                            </div>
+                            <div className="tools-item">
+                                <FiTool />
+                                <p>Chrome DevTools</p>
+                            </div>
                         </div>
                         <div className="management-tools">
-                            <p>Trello</p>
-                            <p>Jira</p>
-                            <p>Notion</p>
-                            <p>Slack</p>
-                            <p>Discord</p>
-                            <p>Teams</p>
+                            <div className="tools-item">
+                                <SiTrello />
+                                <p>Trello</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiJira />
+                                <p>Jira</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiNotion />
+                                <p>Notion</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiSlack />
+                                <p>Slack</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiDiscord />
+                                <p>Discord</p>
+                            </div>
+                            <div className="tools-item">
+                                <p>logo teams</p>
+                                <p>Teams</p>
+                            </div>
                         </div>
                     </div>
 
@@ -120,19 +155,69 @@ function Home() {
 
                     <div className="prod-veille-and-uiux-cms-tools">
                         <div className="prod-veille-tools">
-                            <p>Feedly</p>
-                            <p>Microsoft 365</p>
-                            <p>Google Workspace</p>
+                            <div className="tools-item">
+                                <SiFeedly />
+                                <p>Feedly</p>
+                            </div>
+                            <div className="tools-item">
+                                <p>logo Microsoft365</p>
+                                <p>Microsoft 365</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiGoogledrive />
+                                <p>Google Workspace</p>
+                            </div>
                         </div>
                         <div className="uiux-cms-tools">
-                            <p>Figma</p>
-                            <p>Canva</p>
-                            <p>Wordpress</p>
+                            <div className="tools-item">
+                                <SiFigma />
+                                <p>Figma</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiCanva />
+                                <p>Canva</p>
+                            </div>
+                            <div className="tools-item">
+                                <SiWordpress />
+                                <p>Wordpress</p>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </section>
+
+            <hr />
+
+            <section className="about">
+                <h1 className="about-title">A propos de moi</h1>
+                <div className="about-text">
+                    Je suis passionnée depuis toujours par la logique et la résolution de problèmes.
+                    Cette passion m’a naturellement conduite vers des études de <b>mathématiques et informatique à l’Université Lyon 1 (La Doua)</b>, 
+                    où j’ai acquis de solides bases en algorithmique, programmation orientée objet et structures de données. Par la suite, 
+                    je me suis spécialisée dans le <b>développement web</b>, à travers des formations et divers projets concrets. Aujourd’hui, 
+                    je développe aussi bien en <b>front-end</b> (JavaScript ES6+, React, HTML5, CSS3, Sass) qu’en <b>back-end</b> (Node.js, Express, PHP, Symfony, SQL). 
+                    J’ai également de l’expérience en C++ et je travaille avec des méthodes <b>Agile/Scrum</b>, en utilisant des outils comme <b>Git/GitHub, 
+                    Postman ou Docker</b> pour assurer la qualité et la collaboration. Motivée, rigoureuse et créative, j’aime transformer une idée en solution digitale claire et fonctionnelle, 
+                    que ce soit au sein d’une <b>équipe de développement</b> ou pour accompagner des <b>entreprises et particuliers</b> dans leurs projets numériques.
+                    Toujours en quête de nouveaux défis, je suis ouverte à des <b>opportunités professionnelles</b> ainsi qu’à des <b>missions indépendantes</b> pour aider à concrétiser des besoins digitaux.
+                </div>
+                <div className="about-links">
+                    <a href="https://linkedin.com/in/" target="_blank">
+                        <FaLinkedin size="24" color="#0A66C2" />
+                        <p>Mon LinkedIn</p>
+                    </a>
+                    <a id="github" href="https://github.com/anturiasgit" target="_blank">
+                        <SiGithub size="24" color="#181717" />
+                        <p>Voir mes projets sur GitHub</p>
+                    </a>
+
+                    <a href="/CV_Anturia_HassaniMzé_DevFullStack.pdf" download>
+                    <FaFilePdf size="23" color="#d9534f" />
+                    <p>Télécharger mon CV</p>
+                    </a>
+                </div>
+            </section>
+
         </>
     );
 }
