@@ -25,7 +25,8 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-      - run: cp dist/index.html dist/404.html
+      - run: ls -la && echo "---- dist ----" && ls -la dist  # 👈 DEBUG: vérifie qu'il y a bien index.html
+      - run: cp dist/index.html dist/404.html                 # 👈 SPA
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
