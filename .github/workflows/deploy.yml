@@ -19,14 +19,56 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-      - run: npm ci
-      - run: npm run build
-      - run: ls -la && echo "---- dist ----" && ls -la dist  # 👈 DEBUG: vérifie qu'il y a bien index.html
-      - run: cp dist/index.html dist/404.html                 # 👈 SPA
+
+      - name: Enable Corepack (yarn/pnpm)
+        run: corepack enable
+
+      # --- INSTALL ---
+      - name: Install deps (npm)
+        if: hashFiles('**/package-lock.json') != ''
+        run: npm ci
+
+      - name: Install deps (yarn)
+        if: hashFiles('**/yarn.lock') != ''
+        run: yarn install --frozen-lockfile
+
+      - name: Setup PNPM
+        if: hashFiles('**/pnpm-lock.yaml') != ''
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Install deps (pnpm)
+        if: hashFiles('**/pnpm-lock.yaml') != ''
+        run: pnpm install --frozen-lockfile
+
+      # --- BUILD ---
+      - name: Build (npm)
+        if: hashFiles('**/package-lock.json') != ''
+        run: npm run build
+
+      - name: Build (yarn)
+        if: hashFiles('**/yarn.lock') != ''
+        run: yarn build
+
+      - name: Build (pnpm)
+        if: hashFiles('**/pnpm-lock.yaml') != ''
+        run: pnpm run build
+
+      # SPA: 404.html pour les refreshs
+      - name: Copy 404
+        run: |
+          if [ -f dist/index.html ]; then cp dist/index.html dist/404.html; fi
+
+      # Debug: voir le contenu de dist
+      - name: List dist
+        run: ls -la dist
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
