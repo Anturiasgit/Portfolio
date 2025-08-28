@@ -16,7 +16,9 @@ function Project() {
             <p>Retour à l'accueil</p>
             </Link>
             <h1 className="project-title">{project.title}</h1>
-            <img className="project-cover" src={project.cover} alt={project.title} />
+            <div className="project-cover">
+            <img src={project.cover} alt={project.title} />
+            </div>
             <h3 className="project-subtitle">{project.title}</h3>
             <div className="project-description">
                 {project.description}

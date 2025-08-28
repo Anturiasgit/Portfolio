@@ -16,8 +16,9 @@ padding-inline: 25px;
 }
 
 
-.competences .full-stack, .prod-veille-and-uiux-cms-title {
+.competences .full-stack-title, .prod-veille-and-uiux-cms-title {
     display: flex;
+      flex-wrap: wrap;
  background: linear-gradient(
     to right,
     rgb(226, 223, 223) 50%,   
@@ -26,13 +27,16 @@ padding-inline: 25px;
     box-shadow: 0 -4px 6px -2px rgba(0,0,0,0.2); 
 }
 
-.competences .full-stack .front-end, .back-end, .tools .dev, .management, .prod-veille, .uiux-cms {
+.competences .full-stack-title .front-end, 
+.competences .full-stack-title .back-end, 
+.tools .dev, .tools .management, .tools .prod-veille, 
+.tools .uiux-cms {
     width: 50%;
     font-weight: bold;
     font-size: 18px;
 }
 
-.competences .stack {
+.competences .full-stack {
    display: flex;
    justify-content: space-between;
     padding: 40px 50px 60px;
@@ -54,6 +58,7 @@ padding-inline: 25px;
 
 .tools .dev-and-management-title {
    display: flex;
+     flex-wrap: wrap;
  background: linear-gradient(
     to right,
     lightgrey 50%,
@@ -74,11 +79,16 @@ padding-inline: 25px;
    margin-bottom: 50px;
 }
 
-.dev-and-management-tools .dev-tools, .management-tools, .prod-veille-and-uiux-cms-tools .prod-veille-tools, .uiux-cms-tools 
+.competences .front-stack, .competences .back-stack, 
+.dev-and-management-tools .dev-tools, 
+.dev-and-management-tools .management-tools, 
+.prod-veille-and-uiux-cms-tools .prod-veille-tools, 
+.uiux-cms-tools 
 {
-  display:flex;
+  display: flex;
   width: 50%;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 
@@ -121,7 +131,6 @@ padding-inline: 25px;
 .about .about-links a {
  display: flex;
  text-decoration: none;
- 
 }
 
 .about-links p {
@@ -134,3 +143,17 @@ padding-inline: 25px;
   object-fit: cover;
 }
 
+@media (max-width: 767px) {
+  .projects .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-links {
+    flex-direction: column;
+  }
+
+  .about-links a {
+    margin-bottom: 20px;
+  }
+}

@@ -1,18 +1,19 @@
 .card {
-    height: 190px;
+    height: auto;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 8px;
     display: flex; 
     flex-direction: column;
     position: relative;
 }
 
 .card .cover {
-  height: 100%;
+  height: auto;
   width: 100%;
-    border-radius: 8px;
-    object-fit: contain;
-    border: 2px outset lightgrey;
-
+  border-radius: 8px;
+  object-fit: cover;
+  border: 2px outset lightgrey;
 }
+
+
 

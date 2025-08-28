@@ -32,12 +32,13 @@ function Home() {
                 <h1>Mes compétences</h1>
 
                 <h3>Langages</h3>
-                <div className="full-stack">
+                <div className="full-stack-title">
                     <p className="front-end">Front-End</p>
                     <p className="back-end">Back-End</p>
                 </div>
 
-                <div className="stack">
+                    <div className="full-stack">
+                    <div className="front-stack">
                     <div className="stack-item">
                         <SiHtml5 size="35" color="#E34F26" />
                         <p>HTML</p>
@@ -58,6 +59,9 @@ function Home() {
                         <SiReact size="35" color="#61DAFB" />
                         <p>ReactJS</p>
                     </div>
+               </div>         
+
+                <div className="back-stack">
                     <div className="stack-item">
                         <SiExpress size="35" color="#000000" />
                         <p>ExpressJS</p>
@@ -77,11 +81,14 @@ function Home() {
                     <div className="stack-item">
                         <SiNodedotjs size="35" color="#339933" />
                         <p>NodeJS</p>
+                    </div>                    
+                </div>  
                     </div>
-                </div>
+                      
+                    
 
                 <div className="tools">
-                    <h3>Environement de travail</h3>
+                    <h3>Environnement de travail</h3>
 
                     <div className="dev-and-management-title">
                         <p className="dev">Développement</p>
