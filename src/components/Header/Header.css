@@ -91,4 +91,20 @@ hr {
 
 
 
+@media only screen and (max-width: 550px){
+    .introduction .name-and-dev, .links-and-stack, .contact {
+        flex-direction: column;
+    }
 
+    .name-and-dev #name, .name-and-dev #dev, .links-and-stack .links, 
+    .links-and-stack .stack, .contact .tel, .contact .location,
+    .contact .mail  {
+        width: 100%;
+    }
+
+    .contact .tel {
+        justify-content: left;
+    }
+
+
+}
