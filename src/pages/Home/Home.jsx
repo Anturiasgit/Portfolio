@@ -1,9 +1,12 @@
 import Card from '../../components/Card/Card'
 import projects from '../../projects.json'
 import './Home.css'
-import { SiCanva, SiWordpress, SiFigma, SiGoogledrive, SiFeedly, SiDiscord, SiSlack, SiNotion, SiJira, SiTrello, SiNpm, SiDocker, SiLinux, SiGit, SiPostman, SiGithub, SiJavascript, SiReact, SiHtml5, SiCss, SiCplusplus, SiPhp, SiSymfony, SiNodedotjs, SiExpress, SiSass } from '@icons-pack/react-simple-icons'
+import { SiCanva, SiWordpress, SiFigma, SiGoogle, SiFeedly, SiDiscord, SiSlack, SiNotion, SiJira, SiTrello, SiNpm, SiDocker, SiLinux, SiGit, SiPostman, SiGithub, SiJavascript, SiReact, SiHtml5, SiCss, SiCplusplus, SiPhp, SiSymfony, SiNodedotjs, SiExpress, SiSass } from '@icons-pack/react-simple-icons'
 import { FiTool, FiLink } from "react-icons/fi"
 import { FaLinkedin, FaFilePdf } from "react-icons/fa";
+import vscode from "/assets/competences/VSCode.png" 
+import microsoft365 from "/assets/competences/microsoft365.png"
+import teams from "/assets/competences/teams.png"
 
 
 function Home() {
@@ -88,19 +91,19 @@ function Home() {
                     <div className="dev-and-management-tools">
                         <div className="dev-tools">
                             <div className="tools-item">
-                                <p>logo VSCode</p>
+                                <img className="icon" src={vscode} alt="VSCode" />
                                 <p>VSCode</p>
                             </div>
                             <div className="tools-item">
-                                <SiGithub />
+                                <SiGithub color="#181717"/>
                                 <p>GitHub</p>
                             </div>
                             <div className="tools-item">
-                                <SiGit />
+                                <SiGit color="#F05032"/>
                                 <p>Git</p>
                             </div>
                             <div className="tools-item">
-                                <SiPostman />
+                                <SiPostman color="#FF6C37"/>
                                 <p>Postman</p>
                             </div>
                             <div className="tools-item">
@@ -108,42 +111,42 @@ function Home() {
                                 <p>Linux</p>
                             </div>
                             <div className="tools-item">
-                                <SiDocker />
+                                <SiDocker color="#2496ED" />
                                 <p>Docker</p>
                             </div>
                             <div className="tools-item">
-                                <SiNpm />
+                                <SiNpm color="#CB3837"/>
                                 <p>npm</p>
                             </div>
                             <div className="tools-item">
-                                <FiTool />
+                                <FiTool size="24" />
                                 <p>Chrome DevTools</p>
                             </div>
                         </div>
                         <div className="management-tools">
                             <div className="tools-item">
-                                <SiTrello />
+                                <SiTrello color="#0052CC" />
                                 <p>Trello</p>
                             </div>
                             <div className="tools-item">
-                                <SiJira />
+                                <SiJira color="#0052CC" />
                                 <p>Jira</p>
                             </div>
                             <div className="tools-item">
-                                <SiNotion />
+                                <SiNotion color="#000000" />
                                 <p>Notion</p>
                             </div>
                             <div className="tools-item">
-                                <SiSlack />
+                                <SiSlack  color="#4A154B"/>
                                 <p>Slack</p>
                             </div>
                             <div className="tools-item">
-                                <SiDiscord />
+                                <SiDiscord color="#5865F2" />
                                 <p>Discord</p>
                             </div>
                             <div className="tools-item">
-                                <p>logo teams</p>
-                                <p>Teams</p>
+                            <img className="icon" src={teams} alt="Teams" />                                
+                            <p>Teams</p>
                             </div>
                         </div>
                     </div>
@@ -156,15 +159,15 @@ function Home() {
                     <div className="prod-veille-and-uiux-cms-tools">
                         <div className="prod-veille-tools">
                             <div className="tools-item">
-                                <SiFeedly />
+                                <SiFeedly color="#2BB24C"/>
                                 <p>Feedly</p>
                             </div>
                             <div className="tools-item">
-                                <p>logo Microsoft365</p>
+                            <img className="icon" src={microsoft365} alt="Microsoft 365" />
                                 <p>Microsoft 365</p>
                             </div>
                             <div className="tools-item">
-                                <SiGoogledrive />
+                                <SiGoogle color="#4285F4"/>
                                 <p>Google Workspace</p>
                             </div>
                         </div>
@@ -174,11 +177,11 @@ function Home() {
                                 <p>Figma</p>
                             </div>
                             <div className="tools-item">
-                                <SiCanva />
+                                <SiCanva color="#00C4CC" />
                                 <p>Canva</p>
                             </div>
                             <div className="tools-item">
-                                <SiWordpress />
+                                <SiWordpress color="#21759B" />
                                 <p>Wordpress</p>
                             </div>
                         </div>

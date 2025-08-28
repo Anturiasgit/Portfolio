@@ -128,3 +128,9 @@ padding-inline: 25px;
   margin: 2px 0 0 7px;
 }
 
+.competences .icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
