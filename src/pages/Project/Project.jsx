@@ -1,6 +1,7 @@
 import { FiLink } from "react-icons/fi"
+import { FaArrowLeft } from "react-icons/fa";
 import projects from "../../projects.json"
-import { useParams } from "react-router-dom"
+import { useParams, Link} from "react-router-dom"
 import "./Project.css"
 
 
@@ -10,6 +11,10 @@ function Project() {
 
     return (
         <div>
+            <Link to="/" className="back-home">
+            <FaArrowLeft className="back-home-icon" />
+            <p>Retour à l'accueil</p>
+            </Link>
             <h1 className="project-title">{project.title}</h1>
             <img className="project-cover" src={project.cover} alt={project.title} />
             <h3 className="project-subtitle">{project.title}</h3>
