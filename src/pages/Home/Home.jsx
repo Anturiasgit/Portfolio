@@ -10,6 +10,9 @@ import teams from "/assets/competences/teams.png"
 
 
 function Home() {
+    const base = import.meta.env.BASE_URL; 
+    const IMG_DIR = `${base}assets/projects/`;
+
     return (
         <>
             <section className="projects">
@@ -17,7 +20,7 @@ function Home() {
 
                 <div className="cards-container">
                     {projects.map((project) => (
-                        <Card key={project.id} id={project.id} cover={project.cover} title={project.title} />
+                        <Card key={project.id} id={project.id} cover={`${IMG_DIR}${project.cover}`} title={project.title} />
                     ))}
                 </div>
 

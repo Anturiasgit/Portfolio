@@ -9,6 +9,9 @@ function Project() {
     const { id } = useParams();
     const project = projects.find(p => p.id === parseInt(id));
 
+     const base = import.meta.env.BASE_URL; 
+    const IMG_DIR = `${base}assets/projects/`;
+
     return (
         <div>
             <Link to="/" className="back-home">
@@ -17,7 +20,7 @@ function Project() {
             </Link>
             <h1 className="project-title">{project.title}</h1>
             <div className="project-cover">
-            <img src={project.cover} alt={project.title} />
+            <img src={`${IMG_DIR}${project.cover}`} alt={project.title} />
             </div>
             <h3 className="project-subtitle">{project.title}</h3>
             <div className="project-description">
