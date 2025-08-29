@@ -7,7 +7,7 @@ import "./Project.css"
 
 function Project() {
     const { id } = useParams();
-    const project = projects.find(p => p.id === parseInt(id));
+    const project = projects.find(p => p.id === Number(id));
 
      const base = import.meta.env.BASE_URL; 
     const IMG_DIR = `${base}assets/projects/`;
