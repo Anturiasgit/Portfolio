@@ -7,7 +7,7 @@ import Mentions from './pages/Mentions/Mentions'
 
 function App() {
   return (
-    <Router>
+<Router basename="/Portfolio/">
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
