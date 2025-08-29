@@ -2,7 +2,7 @@ name: Deploy Vite to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]   # mets "master" si ta branche s'appelle master
   workflow_dispatch:
 
 permissions:
@@ -19,31 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      # Install: ci si lockfile présent, sinon install
+          cache: 'npm'
       - name: Install deps
         run: |
           if [ -f package-lock.json ]; then
             npm ci
           else
-            npm install
+            npm i --no-audit --no-fund
           fi
-
       - name: Build
         run: npm run build
-
-      # SPA: permet le refresh des routes
-      - name: Copy 404.html
-        run: |
-          if [ -f dist/index.html ]; then cp dist/index.html dist/404.html; fi
-
-      - name: Show dist
-        run: ls -la dist
-
+      - name: Disable Jekyll
+        run: echo > dist/.nojekyll
+      # Garde cette ligne si tu utilises BrowserRouter (pour éviter 404 au refresh)
+      - name: SPA 404 fallback
+        run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
