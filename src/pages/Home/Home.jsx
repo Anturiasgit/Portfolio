@@ -24,7 +24,7 @@ function Home() {
                     ))}
                 </div>
 
-                <a href="https://github.com/Anturiasgit?tab=repositories" className="repositories">
+                <a href="https://github.com/Anturiasgit?tab=repositories" className="repositories" target="_blank">
                     <FiLink /> <span>Voir tous mes projets sur mon Github</span>
                 </a>
             </section>

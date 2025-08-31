@@ -26,7 +26,7 @@ function Project() {
             <div className="project-description">
                 {project.description}
             </div>
-            <a className="project-link" href={project.link}>
+            <a className="project-link" href={project.link} target="_blank">
                 <FiLink />
                 <p className="project-link-text">Voir le code source de ce projet sur mon GitHub</p>
             </a>
