@@ -8,10 +8,6 @@
     justify-self: center;
 }
 
-.project-cover .cover {
-    width: 100%;
-}
-
 .project-subtitle {
     text-align: left;
     width: 60%;
@@ -54,4 +50,10 @@
 
 .back-home-icon {
     margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+    .project-cover .cover {
+        width: 100%; 
+    }
 }
