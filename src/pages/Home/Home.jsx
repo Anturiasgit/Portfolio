@@ -210,7 +210,7 @@ function Home() {
                     je me suis spécialisée dans le <b>développement web</b>, à travers des formations et divers projets concrets. Aujourd’hui, 
                     je développe aussi bien en <b>front-end</b> (JavaScript ES6+, React, HTML5, CSS3, Sass) qu’en <b>back-end</b> (Node.js, Express, PHP, Symfony, SQL). 
                     J’ai également de l’expérience en C++ et je travaille avec des méthodes <b>Agile/Scrum</b>, en utilisant des outils comme <b>Git/GitHub, 
-                    Postman ou Docker</b> pour assurer la qualité et la collaboration. Motivée, rigoureuse et créative, j’aime transformer une idée en solution digitale claire et fonctionnelle, 
+                    Postman ou Docker</b> pour assurer la qualité et la collaboration. Rigoureuse et créative, j’aime transformer une idée en solution digitale claire et fonctionnelle, 
                     que ce soit au sein d’une <b>équipe de développement</b> ou pour accompagner des <b>entreprises et particuliers</b> dans leurs projets numériques.
                     Toujours en quête de nouveaux défis, je suis ouverte à des <b>opportunités professionnelles</b> ainsi qu’à des <b>missions indépendantes</b> pour aider à concrétiser des besoins digitaux.
                 </div>

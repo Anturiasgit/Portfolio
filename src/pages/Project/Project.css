@@ -8,6 +8,10 @@
     justify-self: center;
 }
 
+.project-cover .cover {
+    width: 100%;
+}
+
 .project-subtitle {
     text-align: left;
     width: 60%;

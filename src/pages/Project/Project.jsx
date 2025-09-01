@@ -20,7 +20,7 @@ function Project() {
             </Link>
             <h1 className="project-title">{project.title}</h1>
             <div className="project-cover">
-            <img src={`${IMG_DIR}${project.cover}`} alt={project.title} />
+            <img src={`${IMG_DIR}${project.cover}`} alt={project.title} className="cover" />
             </div>
             <h3 className="project-subtitle">{project.title}</h3>
             <div className="project-description">
